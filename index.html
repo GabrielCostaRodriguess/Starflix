@@ -20,22 +20,27 @@
         
             <section id="login">
                 <h2>Entrar</h2>
-                <form action="https://www.youtube.com/" method="post">
+                <form action="https://www.youtube.com/" method="get">
                     <span id="p" class="material-symbols-outlined">
                         person
                         </span>
-                    <p id="nome"><input type="text" name="nome" id="inome" placeholder="E-mail ou número de telefone" required>  
+                    <p id="nome">
+                        <input type="text" name="nome" id="inome" placeholder="E-mail ou número de telefone" required>  
+                        <span class="emoji-placeholder">&nbsp;</span>
                     </p>
 
-                    <p id="senha"><input type="password" name="senha" id="isenha"placeholder = "Senha" required minlength="8"> <span id="p2" class="material-symbols-outlined">
-                        lock
-                        </span> </p>
+                    <p id="senha">
+                        <input type="password" name="senha" id="isenha"placeholder="Senha" required minlength="8">
+                        <span id="p2" class="material-symbols-outlined">
+                            lock
+                        </span>
+                    </p>
                     
 
-                    <p id="botao"><input type="submit" value="Entrar" onclick="botao()" ></p>
+                    <p id="botao">
+                        <input type="submit" value="Entrar" onclick="botao()">
+                    </p>
                     <a id="id" href="https://gabrielcostarodriguess.github.io/recuperarsenha/">Esqueceu a senha?</a>
-
-
                 </form>
             </section>
        
