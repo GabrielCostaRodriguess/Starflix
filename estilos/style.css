@@ -30,10 +30,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
-    
-    
-    
-
 }
 
 h1{
@@ -45,37 +41,25 @@ h1{
     border: 1px solid white;
     color: red;
 }
+
 h2{
     text-align: center;
     padding-top: 60px;
     font-size: 2.3em;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.575);
-
 }
 
 section#login{
     background-color: rgba(0, 0, 0, 0.616);
     max-width:450px;
-    height: 400px;
+    height: 420px;
     margin: auto;
-    margin-top: 6.3%;
+    margin-top: 5.5%;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.24);
-    
 }
 
-p#nome > input{
-    
-    margin: auto;
-    display: block;
-    padding: 15px;
-    margin-bottom: 20px;
-    background-color: rgba(0, 0, 0, 0.726);
-    color: white;
-    width: 200px;
-    border-radius: 5px;
-}
-
+p#nome > input,
 p#senha > input{
     margin: auto;
     display: block;
@@ -98,12 +82,7 @@ p#botao > input{
     font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
     transition-duration: 0.5s;
-   
-   
-    
 }
-
-
 
 a#id{
    color: white;
@@ -118,7 +97,6 @@ a#nome{
     color: white;
     text-decoration: none;
     transition-duration: 0.5s;
-    
 }
 
 a#nome:hover{
@@ -133,29 +111,26 @@ a#id:hover{
 
 p#botao > input:hover{
     background-color: rgb(190, 34, 34);
-   
     text-decoration: dashed;
     cursor: pointer;
 }
+
 span#p2{
     margin-left: 80px;
     position: relative;
     top: -35px;
- 
 }
 
 span#p{
    position: relative;
    top: 40px;
    margin-left: 80px;
-   
-   
-   
-   
-   
-  
-   
-   
+}
+
+.emoji-placeholder {
+    display: inline-block;
+    width: 1em; /* Tamanho do espaço reservado para o emoji */
+    height: 1em;
 }
 footer{
     margin-top: 30px;
